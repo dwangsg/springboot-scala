@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
 @SpringBootApplication
-class BootConfig
+class SpringbootScalaApplication
 
-object SpringbootScalaApplication extends App {
+object SpringbootScalaApplication{
   def main(args: Array[String]): Unit = {
-    SpringApplication.run(classOf[BootConfig])
+    SpringApplication.run(classOf[SpringbootScalaApplication], args: _*)
 }
 }
 
